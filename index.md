@@ -3,7 +3,7 @@
 *CSe 15l* is an interesting class and the **link** to this website is [Link](https://ucsd-cse15l-f23.github.io/)
 
 
-![Image](https://github.com/UCSDNobel1998/cse15l-lab-reports/blob/main/94415100.png)
+![Image](94415100.png)
 
 > In this lab we’ll make a professional website for yourself where you can post your lab reports for the course. 
 * **Part 1: Meet Your Group**
