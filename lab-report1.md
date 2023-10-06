@@ -99,6 +99,7 @@ cat: messages: Is a directory
      Command and output
 
      ![Image](output1.png)
+   
 1. When the command was run, I was in the lecture 1 directory.
 2. The reason why I got that is out put is that when I use the path to a file, it displays the content of that file.
 3. The output is not an error.
