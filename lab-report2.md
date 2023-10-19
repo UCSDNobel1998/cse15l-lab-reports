@@ -120,9 +120,13 @@ The path to the private key for your SSH key for logging into ieng6 (on my compu
 
 ![image](labreport2_path1.png)
 
+---
+
 The path to the public key for your SSH key for logging into ieng6 (within my account on ieng6):
 
 ![Image](labreport2_path2.png)
+
+---
 
 A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password:
 
