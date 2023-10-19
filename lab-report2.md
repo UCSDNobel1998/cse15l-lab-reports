@@ -107,7 +107,7 @@ public class StringServer {
 ---
 1. Which methods in your code are called?
    
-  **The main method in the StringServer class, Server.start(), the handleRequest method in the Handler class, url.getPath(), url.getQuery(), contains("/add-message), and splt("=") are called.**
+   **The main method in the StringServer class, Server.start(), the handleRequest method in the Handler class, url.getPath(), url.getQuery(), contains("/add-message), and splt("=") are called.**
   
 
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
