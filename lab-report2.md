@@ -51,7 +51,6 @@ public class StringServer {
    
    **The main method in the StringServer class, Server.start(), the handleRequest method in the Handler class, url.getPath(), url.getQuery(), contains("/add-message), and splt("=") are called.**
 
-   
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
    
    **1. Main method in the StringServer class:**
@@ -94,7 +93,7 @@ public class StringServer {
 
    **No relevant fields.**
 
-3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+4. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
    
    **string str changes from "" to "1. Hello\n". static int i changes from 1 to 2.**
 
