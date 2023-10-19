@@ -151,7 +151,7 @@ public class StringServer {
 
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
    
-   **string str changes from "1. Hello\n" to "1. Hello\n2. How are you\n". static int changes from 2 to 3.**
+   **string str changes from "1. Hello\n" to "1. Hello\n2. How%20are%20you\n". static int changes from 2 to 3.**
 
 ---
 ## Part 2
