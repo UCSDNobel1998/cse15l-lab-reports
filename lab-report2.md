@@ -49,7 +49,8 @@ public class StringServer {
 
 1. Which methods in your code are called?
    
-   **The main method in the StringServer class, Server.start(port, new Handler()), and the handleRequest method in the Handler class are called.**
+   **The main method in the StringServer class, Server.start(), and the handleRequest method in the Handler class are called.**
+
    
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
    
@@ -59,15 +60,17 @@ public class StringServer {
    
    **It does not have any relevant fields of the class, it only has local variable.**:
 
-   **2. Server.start(port, new Handler()):**
+   **2. Server.start():**
    
    **Relevant arguments: int port, URLHandler handler**
 
    **It does not have any fields.**
 
+   **Note: the code of this method is not in the StringServer.java.**
+
    **3. handleRequest method in the Handler class:**
    
-   **Relevant arguments:URI url**
+   **Relevant arguments: URI url**
    
    **Values of relevant fields: string str = "", static int i = 1**
 
@@ -100,16 +103,14 @@ public class StringServer {
 
    **It does not have any fields.**
 
-   **Note: the code of this method is not in the StringServer.java.**
-
    **3. handleRequest method in the Handler class:**
    
    **Relevant arguments: URI url**
    
-   **Values of relevant fields: string str = "1. Hello", static int i = 2, **
+   **Values of relevant fields: string str = "1. Hello", static int i = 2**
 
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-4. 
+   
    **string str changes from "1. Hello\n" to "1. Hello\n2. How are you\n". static int changes from 2 to 3.**
 
 ---
@@ -135,22 +136,5 @@ public class StringServer {
 
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before:
 
-**In week 2, I learned how to use the ssh command to connect to the remote server. It is new to me. Even if I am at home and can't connect to the UCSD-Protected network, I can use the ssh command to test
+**In week 2, I learned how to use the ssh command to connect to the remote server. It is new to me. Even if I am at home and cannot connect to the UCSD-Protected network, I can use the ssh command to test
 if my web server can load the ieng6-20x URLs. In week 3, I learned how to log into ieng6 without typing the password. It can save a lot of time.**
-
-
-
-
-
-
-
-
-
-   
-   
-   
-   
-   
-         
-   
-
