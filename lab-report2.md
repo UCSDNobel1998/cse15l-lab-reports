@@ -49,7 +49,7 @@ public class StringServer {
 
 1. Which methods in your code are called?
    
-   **The main method in the StringServer class, Server.start(), and the handleRequest method in the Handler class are called.**
+   **The main method in the StringServer class, Server.start(), the handleRequest method in the Handler class, url.getPath(), url.getQuery(), contains("/add-message), and splt("=") are called.**
 
    
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
@@ -58,7 +58,7 @@ public class StringServer {
    
    **Relevant arguments: args**
    
-   **It does not have any relevant fields of the class, it only has local variable.**:
+   **It does not have any relevant fields of the class, it only has local variable.**
 
    **2. Server.start():**
    
@@ -74,6 +74,26 @@ public class StringServer {
    
    **Values of relevant fields: string str = "", static int i = 1**
 
+   **4. url.getPath():**
+
+   **No relevant arguments and fields.**
+
+   **5. url.getQuery():**
+
+   **No relevant arguments and fields.**
+
+   **6. contains("/add-message):**
+
+   **Relevant arguments: "/add-message"**
+
+   **No relevant fields.**
+
+   **7. spit("=")**
+
+   **Relevant arguments: "="**
+
+   **No relevant fields.**
+
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
    
    **string str changes from "" to "1. Hello\n". static int i changes from 1 to 2.**
@@ -87,7 +107,7 @@ public class StringServer {
 ---
 1. Which methods in your code are called?
    
-   **The main method in the StringServer class, Server.start(), and the handleRequest method in the Handler class are called.**
+  **The main method in the StringServer class, Server.start(), the handleRequest method in the Handler class, url.getPath(), url.getQuery(), contains("/add-message), and splt("=") are called.**
 
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
    
@@ -95,7 +115,7 @@ public class StringServer {
    
    **Relevant arguments: args**
    
-   **It does not have any relevant fields of the class, it only has local variable.**:
+   **It does not have any relevant fields of the class, it only has local variable.**
 
    **2. Server.start():**
    
@@ -108,6 +128,26 @@ public class StringServer {
    **Relevant arguments: URI url**
    
    **Values of relevant fields: string str = "1. Hello", static int i = 2**
+
+     **4. url.getPath():**
+
+   **No relevant arguments and fields.**
+
+   **5. url.getQuery():**
+
+   **No relevant arguments and fields.**
+
+   **6. contains("/add-message):**
+
+   **Relevant arguments: "/add-message"**
+
+   **No relevant fields.**
+
+   **7. spit("=")**
+
+   **Relevant arguments: "="**
+
+   **No relevant fields.**
 
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
    
