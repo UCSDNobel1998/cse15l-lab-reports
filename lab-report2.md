@@ -129,7 +129,7 @@ public class StringServer {
    
    **Values of relevant fields: string str = "1. Hello", static int i = 2**
 
-     **4. url.getPath():**
+   **4. url.getPath():**
 
    **No relevant arguments and fields.**
 
