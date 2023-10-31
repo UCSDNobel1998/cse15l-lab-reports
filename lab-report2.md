@@ -162,7 +162,7 @@ The path to the private key for your SSH key for logging into ieng6 (on my compu
 
 The private key is stored in the id_rsa.
 
-The path is shown in the image: /C/Users/16267/.ssh/id_rsa
+The path is shown in the image: /c/Users/16267/.ssh/id_rsa
 
 ---
 
