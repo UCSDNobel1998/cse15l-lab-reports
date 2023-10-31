@@ -160,11 +160,19 @@ The path to the private key for your SSH key for logging into ieng6 (on my compu
 
 ![image](labreport2_path1.png)
 
+The private key is stored in the id_rsa.
+
+The path is shown in the image: /C/Users/16267/.ssh/id_rsa
+
 ---
 
 The path to the public key for your SSH key for logging into ieng6 (within my account on ieng6):
 
 ![Image](labreport2_path2.png)
+
+The public key is stored in the authorized_keys.
+
+The path is shown in the image: /home/linux/ieng6/cs15lfa23/cs15lfa23so/.ssh/authorized_keys
 
 ---
 
