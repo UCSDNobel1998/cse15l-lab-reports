@@ -104,7 +104,11 @@ calculate the actual average without the lowest numbers of the array. During the
 
 ---
 
+## Part 2 - Researching Commands
 
+**Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose.**
+
+I choose find. 
 
 
 
