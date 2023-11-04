@@ -35,7 +35,7 @@ The associated code in the ArrayTests.java:
 @Test
   public void averageWithoutLowest2() {
     double [] input1 = {1.0, 2.0, 4.0};
-    double expected = 1.5;
+    double expected = 3.0;
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.01);
   }
 ```
@@ -170,7 +170,7 @@ $ find . -type d -name "empty-directory" -exec rm -r {} \;
 
 **Write a sentence or two about what it’s doing and why it’s useful.**
 
- I created an empty directory and its name is empty-directory. This command finds the directory "empty-directory" starting in the current directory and its subdirectories, and removes each directory it          finds. It is useful because the "exec" option allows the removal command "rm -r" to be executed.
+ I created an empty directory and its name is empty-directory. This command finds the directory "empty-directory" starting in the current directory and its subdirectories, and removes each directory it finds. It is useful because the "exec" option allows the removal command "rm -r" to be executed.
 
 ---
 
