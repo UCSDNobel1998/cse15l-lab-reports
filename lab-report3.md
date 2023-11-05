@@ -111,7 +111,7 @@ calculate the actual average without the lowest numbers of the array. During the
 
 I choose the find command. 
 
-1.  Find Files Using Name and Ignoring Case: -iname option with find command.
+1.  Find Files/Directories Using Name and Ignoring Case: -iname option with find command.
 
 Source: [Link](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
    
@@ -147,7 +147,7 @@ $ find . -iname "*gen*"
 
 ---
 
-2.  Find and Remove Single File: -exec option with find command.
+2.  Find and Remove Single File/Directory: -exec option with find command.
 
 Source: [Link](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
    
@@ -176,7 +176,7 @@ $ find . -type d -name "empty-directory" -exec rm -r {} \;
 ---
 
 
-3. Find all Empty Files: -empty option with find command.
+3. Find all Empty Files/Directories: -empty option with find command.
 
 Source: [Link](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
      
@@ -204,7 +204,7 @@ I created an empty directory with the name "empty". This command finds all the e
 
 ---
 
-4.   Find Files Based on Modification Time: -mmin option with find command.
+4.   Find Files/Directories Based on Modification Time: -mmin option with find command.
 
 Source: [Link](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
 
@@ -219,16 +219,17 @@ $ find . -mmin -1
 
 **Write a sentence or two about what it’s doing and why it’s useful.**
 
-I just modified the test.txt. This command finds all the files starting in the current directory and its subdirectories which are modified in the last 1 minute. It is useful because we can find a file that was just modified more efficiently.
+I just modified the test.txt. This command finds all the files or directories starting in the current directory and its subdirectories which are modified in the last 1 minute. It is useful because we can find a file that was just modified more efficiently.
 
 * Second example:
 ```
 16267@MSI MINGW64 ~/OneDrive/Documents/GitHub/lab5/docsearch/technical (main)
-$ find . -type f -mmin -10
+$ find . -mmin -10
+.
 ./test.txt
 ./test2.txt
 ```
 
 **Write a sentence or two about what it’s doing and why it’s useful.**
 
-I just created a new file with the name "test2.txt".  This command finds all the files starting in the current directory and its subdirectories which are modified in the last 10 minutes. It is useful because it helps me to track all files modified in the time frame. If I suspect unauthorized access, I can find them quickly.
+I just created a new file with the name "test2.txt".  This command finds all the files or directories starting in the current directory and its subdirectories which are modified in the last 10 minutes. It is useful because it helps me to track all files modified in the time frame. If I suspect unauthorized access, I can find them quickly.
