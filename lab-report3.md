@@ -204,7 +204,7 @@ I created an empty directory with the name "empty". This command finds all the e
 
 ---
 
-4.   Find files based on modification time: -mmin option with find command.
+4.   Find Files Based on Modification Time: -mmin option with find command.
 
 Source: [Link](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
 
