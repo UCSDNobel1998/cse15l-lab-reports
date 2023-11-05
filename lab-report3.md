@@ -41,7 +41,7 @@ The associated code in the ArrayTests.java:
 ```
 ---
 
-* **The symptom, as the output of running the tests:(provide it as a screenshot of running JUnit with at least the two inputs above):**
+* **The symptom, as the output of running the tests: (provide it as a screenshot of running JUnit with at least the two inputs above):**
 
  ![Image](JunitTestRunning.png)
 
