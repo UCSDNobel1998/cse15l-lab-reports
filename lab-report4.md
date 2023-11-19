@@ -12,7 +12,7 @@ The keys I pressed to get this step:
 
 `ssh cs15lfa23so@ieng6.ucsd.edu<enter>`   I used this command to log in to ieng6. I do not need to type the password.
 
-## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
+## Step 5: Clone my fork of the repository from my Github account (using the SSH URL)
 
 Screenshot:
 ![image](step5.png)
