@@ -7,7 +7,7 @@
 ## Step 4:Log into ieng6
 
 Screenshot:
-
+![image](step4.png)
 
 The keys I pressed to get this step: 
 `ssh cs15lfa23so@ieng6.ucsd.edu`
