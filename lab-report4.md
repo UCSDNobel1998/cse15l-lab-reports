@@ -7,21 +7,20 @@
 ## Step 4:Log into ieng6
 
 Screenshot:
-
+![image](step4.png)
 
 The keys I pressed to get this step: 
-*ssh cs15lfa23so@ieng6.ucsd.edu*
+`ssh cs15lfa23so@ieng6.ucsd.edu`
 
 I do not need to type the password.
 
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
 Screenshot:
-
-
+![image](step5.png)
 
 The keys I pressed to get this step: 
-*git clone git@github.com:UCSDNobel1998/lab7.git*
+`git clone git@github.com:UCSDNobel1998/lab7.git`
 
 ## Step 6: Run the tests, demonstrating that they fail
 
