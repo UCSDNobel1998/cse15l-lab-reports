@@ -50,7 +50,7 @@ The keys I pressed to get this step:
 
 `vim ListExamples.java<enter>` I used this command to open the file ListExamples.java in vim.
 
-`/index1<enter>nnnnnnnnnce ce index2<esc>:wq<enter>` I used this command to first search pattern "index1" in the file. Then I pressed n for 9 times to find the index1 which needed to be modified. I pressed ce to delete the index1 and typed index2 to insert. I typed ESC to exit the insert mode. Finally, I typed :wq to save and exit Vim.
+`/index1<enter>nnnnnnnnnce index2<esc>:wq<enter>` I used this command to first search pattern "index1" in the file. Then I pressed n for 9 times to find the index1 which needed to be modified. I pressed ce to delete the index1 and typed index2 to insert. I typed ESC to exit the insert mode. Finally, I typed :wq to save and exit Vim.
 
 
 `cat ListExamples.java` I used this command to print the content of the file and check whether the modification was successful.
