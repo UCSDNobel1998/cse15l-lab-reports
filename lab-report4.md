@@ -55,7 +55,7 @@ The keys I pressed to get this step:
 
 `cat ListExamples.java` I used this command to print the content of the file and check whether the modification was successful.
 
-## Step 8： Run the tests, demonstrating that they now succeed
+## Step 8: Run the tests, demonstrating that they now succeed
 
 Screenshot:
 ![image](step8.png)
