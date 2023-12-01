@@ -1,6 +1,6 @@
 # Lab Report 5 - Putting it All Together (Week 9)
 
-**Part 1 – Debugging Scenario**
+## Part 1 – Debugging Scenario
 
 
 Design a debugging scenario, and write your report as a conversation on EdStem. It should have:
@@ -8,9 +8,9 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a
  post)
 
-### Original Post on EdStem
+**Original Post on EdStem**
 
-**Title:**  Issue with Java Program Output - Need Help Debugging
+**Title:** Issue with Java Program Output - Need Help Debugging
 
 **Content:** 
 
@@ -108,7 +108,7 @@ You could try to insert a print-statement inside your loop just before the value
 >   java MyProgram
 >   ```
 >
-> -**Contents of inputFile.txt:**
+> - **Contents of inputFile.txt:**
 > ```
 > Hello
 >world
@@ -128,7 +128,7 @@ You could try to insert a print-statement inside your loop just before the value
 >   To fix the bug, remove the second call to `reader.readLine()` inside the while loop in `MyProgram.java`.
 >
 ---
-**Part 2 – Reflection**
+## Part 2 – Reflection
 In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
-During the latter part of this quarter, I had a really enlightening experience where I learned how to use Vim effectively. At first, I was a bit overwhelmed by Vim's mode-based editing. As I started getting more hands-on during our labs I was amazed by how efficient it is for editing a single file. I picked up some tricks like navigating quickly within a file using keyboard shortcuts for editing and executing commands like search and replace. These techniques have significantly sped up my coding process. It has given me a newfound appreciation for command-line tools, in software development. Overall it has boosted my productivity too.
+**During the latter part of this quarter, I had a really enlightening experience where I learned how to use Vim effectively. At first, I was a bit overwhelmed by Vim's mode-based editing. As I started getting more hands-on during our labs I was amazed by how efficient it is for editing a single file. I picked up some tricks like navigating quickly within a file using keyboard shortcuts for editing and executing commands like search and replace. These techniques have significantly sped up my coding process. It has given me a newfound appreciation for command-line tools, in software development. Overall it has boosted my productivity too.**
