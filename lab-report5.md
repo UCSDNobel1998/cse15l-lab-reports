@@ -70,7 +70,8 @@ You could try to insert a print-statement inside your loop just before the value
 > I compared this with my program's output and noticed that indeed my program is skipping lines. Here's the bug: ReadLine() is erroneously called twice in the loop, during each loop iteration that ought to read each individual line 
 > the file and subsequently print it respectively. An incoming line is read by the first readLine(). Nevertheless, another unexpected readLine() execution occurs before the loop begins yet another iteration. This second call will read
 >  the next line but do nothing with it; then, when the loop iterates, this line in the output will be skipped.
-   
+
+---
 4. At the end, all the information needed about the setup including:
 * The file & directory structure needed
 * The contents of each file before fixing the bug
