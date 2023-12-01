@@ -42,7 +42,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 >   ```
 >
 >
-> It seems like the bug might be related to how the program reads the file or processes the lines. I'm a bit stuck on what could be causing this. Any suggestions on how to debug this would be really helpful!
+>It seems like the bug might be related to how the program reads the file or processes the lines. I'm a bit stuck on what could be causing this. Any suggestions on how to debug this would be really helpful!
 ---
 
 
