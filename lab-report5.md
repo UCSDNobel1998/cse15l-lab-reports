@@ -5,7 +5,7 @@
 
 Design a debugging scenario, and write your report as a conversation on EdStem. It should have:
 
-1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a
+1.The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a
  post)
 
 **Original Post on EdStem**
@@ -43,7 +43,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 > 
 > It seems like the bug might be related to how the program reads the file or processes the lines. I'm a bit stuck on what could be causing this. Any suggestions on how to debug this would be really helpful!
 ---
-2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+2.A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
    
 **Response from TA:**
 
@@ -60,7 +60,7 @@ You could try to insert a print-statement inside your loop just before the value
 >}
 > ```
 ---
-3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+3.Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 **Follow-Up Post from Student:**
 
 > Thanks for the suggestion! Here's the output after adding the code:
@@ -72,7 +72,7 @@ You could try to insert a print-statement inside your loop just before the value
 >  the next line but do nothing with it; then, when the loop iterates, this line in the output will be skipped.
 
 ---
-4. At the end, all the information needed about the setup including:
+4.At the end, all the information needed about the setup including:
 * The file & directory structure needed
 * The contents of each file before fixing the bug
 * The full command line (or lines) you ran to trigger the bug
