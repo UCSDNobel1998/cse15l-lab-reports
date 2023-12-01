@@ -51,7 +51,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 
 > Hi there,
 > 
-> Thank you for sharing the input.txt and java code. Based on what you said it could probably be a problem of how your program reads lines up on the file. Many lines might go unnoticed by this system.
+> Thank you for sharing the input.txt and java code. Based on what you said it could probably be a problem of how your program reads lines up on the file. Many lines might go unnoticed by this program.
 You could try to insert a print-statement inside your loop just before the value of line. Using this method is possible to find out whether all the lines could be printed. You could add like this:
 >
 >
@@ -71,7 +71,7 @@ You could try to insert a print-statement inside your loop just before the value
 > 
 > ![Terminal Output - Updated](labreport5_screenshot2.png)
 > 
-> I compared this with my program's output and noticed that indeed my program is skipping lines. Here's the bug: ReadLine() is erroneously called twice in the loop, during each loop iteration that ought to read each individual line 
+> I compared this with my program's output and noticed that indeed my program is skipping lines. Here's the bug: ReadLine() is erroneously called twice in the loop, during each loop iteration that ought to read each individual line in
 > the file and subsequently print it respectively. An incoming line is read by the first readLine(). Nevertheless, another unexpected readLine() execution occurs before the loop begins yet another iteration. This second call will read
 >  the next line but do nothing with it; then, when the loop iterates, this line in the output will be skipped.
 
